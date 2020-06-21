@@ -12,6 +12,11 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
+
+### `Dark Mode`
+
+![](https://repository-images.githubusercontent.com/273798419/f1cf1b80-b3c6-11ea-9969-3cc141b16f60)
+
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
