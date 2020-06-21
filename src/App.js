@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Footer from "./Componets/Footer";
 import Navbar from "./Componets/Navbar";
 import Characters from "./Componets/Characters";
-import "./App.scss";
 
 function App() {
   return (

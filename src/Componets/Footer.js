@@ -2,9 +2,16 @@ import React, { Fragment } from "react";
 
 const Footer = () => {
   return (
-    <Fragment>
-      <h1>Footer</h1>
-    </Fragment>
+    <nav>
+      <a className="logotipo" href="#">
+        Rick & Morty
+      </a>
+      <div className="enlaces">
+        <a href="https://github.com/VicenteGMtz/rick-morty.git" target="_blank">
+          GitHub
+        </a>
+      </div>
+    </nav>
   );
 };
 
