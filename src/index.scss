@@ -138,9 +138,23 @@ nav {
     transition: 0.3s ease all;
 
     p,
-    a,
-    button {
-      display: contents;
+    button,
+    .info {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      padding-left: 0;
+    }
+    .modal {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 2px;
+      width: auto;
+      padding-left: 0;
+      text-align: right;
+      justify-content: flex-end;
     }
 
     body.dark & {

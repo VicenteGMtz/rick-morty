@@ -16,7 +16,7 @@ const customStyles = {
 // Make sure to bind modal to your appElement (http://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement("#root");
 
-function App() {
+function App({ character }) {
   var subtitle;
   const [modalIsOpen, setIsOpen] = React.useState(false);
   function openModal() {
@@ -33,8 +33,8 @@ function App() {
   }
 
   return (
-    <div>
-      <button onClick={openModal}>Open Modal</button>
+    <div className="modal">
+      <button onClick={openModal}>Detalles</button>
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
@@ -46,8 +46,8 @@ function App() {
         <button onClick={closeModal}>close</button>
         <div>I am a modal</div>
         <form>
-          <input />
-          <button>tab navigation</button>
+          <img src={character.image} alt="" />
+          <button> {character.id}</button>
           <button>stays</button>
           <button>inside</button>
           <button>the modal</button>

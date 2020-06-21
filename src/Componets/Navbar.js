@@ -12,7 +12,12 @@ class Navbar extends Component {
             Rick & Morty
           </a>
           <div className="enlaces">
-            <a href="#">GitHub</a>
+            <a
+              href="https://github.com/VicenteGMtz/rick-morty.git"
+              target="_blank"
+            >
+              GitHub
+            </a>
             <button className="sitch" id="switch">
               <span>
                 <i className="fas fa-sun"></i>
