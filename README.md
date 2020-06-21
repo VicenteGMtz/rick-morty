@@ -7,8 +7,8 @@ Tecnologies :   `React` ,`React Hooks`, `Sass`
   - npm install
   - npm run start
 
-### `Live preview`
-Este sitio se construyó usando [GitHub Pages](https://pages.github.com/).
+### []`Live preview`
+(https://localhost:8080/).
 
 
 
