@@ -1,36 +1,43 @@
-import React, { Component, Fragment } from "react";
+import React, { Component, Fragment, useEffect } from "react";
 
-class Navbar extends Component {
-  componentDidMount() {
-    console.log("desde mounted");
-  }
-  render() {
-    return (
-      <Fragment>
-        <nav>
-          <a className="logotipo" href="#">
-            Rick & Morty
+const Navbar = () => {
+  const changeMode = () => {
+    const btnSwitch = document.querySelector("#switch");
+
+    btnSwitch.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+      btnSwitch.classList.toggle("active");
+    });
+  };
+
+  useEffect(() => {
+    changeMode();
+  }, []);
+  return (
+    <Fragment>
+      <nav>
+        <a className="logotipo" href="#">
+          Rick & Morty
+        </a>
+        <div className="enlaces">
+          <a
+            href="https://github.com/VicenteGMtz/rick-morty.git"
+            target="_blank"
+          >
+            GitHub
           </a>
-          <div className="enlaces">
-            <a
-              href="https://github.com/VicenteGMtz/rick-morty.git"
-              target="_blank"
-            >
-              GitHub
-            </a>
-            <button className="sitch" id="switch">
-              <span>
-                <i className="fas fa-sun"></i>
-              </span>
-              <span>
-                <i className="fas fa-moon"></i>
-              </span>
-            </button>
-          </div>
-        </nav>
-      </Fragment>
-    );
-  }
-}
+          <button className="sitch" id="switch" onChange={changeMode}>
+            <span>
+              <i className="fas fa-sun"></i>
+            </span>
+            <span>
+              <i className="fas fa-moon"></i>
+            </span>
+          </button>
+        </div>
+      </nav>
+    </Fragment>
+  );
+};
 
 export default Navbar;

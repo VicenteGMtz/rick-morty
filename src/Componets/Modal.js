@@ -34,7 +34,7 @@ function App({ character }) {
 
   return (
     <div className="modal">
-      <button onClick={openModal}>Detalles</button>
+      <button onClick={openModal}>Details</button>
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
@@ -42,15 +42,17 @@ function App({ character }) {
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2>
-        <button onClick={closeModal}>close</button>
-        <div>I am a modal</div>
-        <form>
+        <button onClick={closeModal}>x</button>
+
+        <form className="form">
+          <br />
           <img src={character.image} alt="" />
-          <button> {character.id}</button>
-          <button>stays</button>
-          <button>inside</button>
-          <button>the modal</button>
+          <h2 ref={(_subtitle) => (subtitle = _subtitle)}>{character.name} </h2>
+          <p> Name: {character.name}</p>
+          <p>specie : {character.species}</p>
+          <p> Status : {character.status}</p>
+          <p> Gender : {character.gender}</p>
+          <p> Origin : {character.origin.name}</p>
         </form>
       </Modal>
     </div>

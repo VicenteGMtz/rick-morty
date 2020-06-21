@@ -4,14 +4,14 @@ import Character from "./Character";
 import axios from "axios";
 
 const Characters = () => {
-  const [characters, getCharacters] = useState([]);
+  const [characters, setCharacters] = useState([]);
   const consultaApi = async () => {
-    const api = await axios
+    await axios
       .get("https://rickandmortyapi.com/api/character/")
       .then((response) => {
         const data = response.data.results;
         console.log("data: >>>", data);
-        getCharacters(data);
+        setCharacters(data);
       })
       .catch((error) => {
         // handle error
@@ -35,20 +35,3 @@ const Characters = () => {
 };
 
 export default Characters;
-
-// componentWillMount() {
-//   const { characters } = this.state;
-//   axios
-//     .get("https://rickandmortyapi.com/api/character/")
-//     .then((response) => {
-//       const data = response.data.results;
-//       this.setState({ characters: data });
-//     })
-//     .catch((error) => {
-//       // handle error
-//       console.log(error);
-//     })
-//     .then(() => {
-//       return [];
-//     });
-// }

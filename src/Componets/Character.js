@@ -8,7 +8,7 @@ const Character = ({ characters }) => (
         <img src={character.image} alt="" />
         <div className="info">
           <br />
-          <p>Nombre : {character.name}</p> <br />
+          <p>Name : {character.name}</p> <br />
           {/* <p>Especie : {character.species}</p> */}
           {/* <button className="boton primario">Ver más</button> */}
           <Modal className="modal" character={character} />
