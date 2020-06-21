@@ -2,13 +2,13 @@
 
 Tecnologies :   `React` ,`React Hooks`, `Sass`
 
-### `Clone repo and install dependencies locally`
+### Clone repo and install dependencies locally
 
   - npm install
   - npm run start
 
-### []`Live preview`
-(https://localhost:8080/).
+### `Live preview`
+https://localhost:8080/
 
 
 
