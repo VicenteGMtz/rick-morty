@@ -1,16 +1,15 @@
-## Available Scripts
+## Rick & Morty API React
 
-In the project directory, you can run:
+Tecnologies :   `React` ,`React Hooks`, `Sass`
 
-### `npm start`
+### `Clone repo and install dependencies locally`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  - npm install
+  - npm run start
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### `Live preview`
+Este sitio se construyó usando [GitHub Pages](https://pages.github.com/).
 
-### `npm test`
 
 
 ### `Dark Mode`
