@@ -8,7 +8,7 @@ Tecnologies :   `React` ,`React Hooks`, `Sass`
   - npm run start
 
 ### `Live preview`
-https://localhost:8080/
+https://rickmortyappreact.netlify.app/
 
 
 
