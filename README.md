@@ -1,6 +1,6 @@
 ## Rick & Morty API React
 
-Tecnologies :   `React` ,`React Hooks`, `Sass`
+Tecnologies :   `React` ,`React Hooks`, `Sass`,`Axios`
 
 ### Clone repo and install dependencies locally
 
