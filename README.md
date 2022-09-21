@@ -17,4 +17,4 @@ https://rickmortyappreact.netlify.app/
 
 ## JAVASCRIPT PROJECT
 
-Just JavaScript
+Just JavaScript edit
