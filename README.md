@@ -2,6 +2,13 @@
 
 Tecnologies : `React` ,`React Hooks`, `Sass`,`Axios`
 
+Tecnologies :   `React` ,`React Hooks`, `Sass`,`Axios`
+Tecnologies :   `React` ,`React Hooks`, `Sass`,`Axios`
+Tecnologies :   `React` ,`React Hooks`, `Sass`,`Axios`
+Tecnologies :   `React` ,`React Hooks`, `Sass`,`Axios`
+Tecnologies :   `React` ,`React Hooks`, `Sass`,`Axios`
+Tecnologies :   `React` ,`React Hooks`, `Sass`,`Axios`
+
 ### Clone repo and install dependencies locally
 
 - npm install
